@@ -1,1 +1,59 @@
-/* Your external CSS styles go here */
+body
+{
+	background-image: url('back.jpg');
+}
+#header a:hover 
+{
+	color: #fff;
+}
+
+#bg-img
+{
+	background: url('pc2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 360px;
+}
+#bg-img .container{
+	margin-top: 90px !important;
+}
+#about
+{
+	margin-top: -200px;
+}
+	}
+#about.fa
+{
+	color: #3cb371;
+}
+#about span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	padding-top: 10px;
+
+}
+#education span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#skills span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contact span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
