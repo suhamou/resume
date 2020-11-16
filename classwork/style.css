@@ -1,67 +1,62 @@
-*{margin:0; padding:0: outline:0; }
-body{
-	font-family: Arial; font-size: 14px; line-height: 20px;color: #000000;
+.body
+{
+	background-image: url('back.jpg');
+  /*  <img src="D:\CSE309_WEB\Class\cw123-suhamou\classwork\back.jpg">*/
 }
-.headersection{
-height: 150px;
- background:#5B5B5B;
-  color: #156FA0 ;
-  font-size: 20px;
-  text-align: left;
-  padding-top: 20px;
-  
+#header a:hover 
+{
+	color: #fff;
 }
-.navsection{
+
+#bg-img
+{
+	background: url('pc.JPG');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 360px;
+}
+#bg-img .container{
+	margin-top: 90px !important;
+}
+#about
+{
+	margin-top: -200px;
+}
+	}
+#about.fa
+{
+	color: #3cb371;
+}
+#about span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:10px;
+	padding-top: 10px;
 
 }
-.content{
-	background-color: skyblue;
-
-
-}
-.maincontent{
-	width: 500px;
-	float: left;
-	div {
-		background-image: url('pc2.jpg');
-	  }
-
-
-}
-.sidebar{
-float: right;
-
-}
-.footersection{
- background-color: darkgoldenrod;
- font-size: 30px;
- padding-top: 20px;
- padding-bottom: 30px;
-}
-.img{
-	height: 200px;
-	width: 100px;
+#education span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-top: 20px;
-	padding-left: 5px;
-	padding-right: 5px;
-	float: right ;
 }
-.template{
-	width: 960px; margin:0 auto }
-}
-clear{overflow: hidden;}
-.p{
-	text-align: center;
+
+#skills span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-top:20px;
-	text-shadow: black;
 }
-.tbl{
-	padding-top: 20px;
-	padding-bottom: 30px;
-	margin-bottom: 20px;
-	pa
+
+#contact span
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .mail{
@@ -72,16 +67,3 @@ clear{overflow: hidden;}
 .submit{
 	margin-left: 10px;
 }
-
-.attribute{
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: justify;
-}
-.container{
-
-}
-#header{
-	font-style: initial;
-}
-
