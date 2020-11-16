@@ -10,3 +10,10 @@
       background-size: initial;
     }
   }
+  
+  @media (min-width: 481px) and (max-width: 1023px) {
+    body {
+        background-size: initial;
+      }
+  }
+    
