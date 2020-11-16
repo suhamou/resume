@@ -3,7 +3,7 @@ body{
 	font-family: Arial; font-size: 14px; line-height: 20px;color: #000000;
 }
 .headersection{
-height: 100px;
+height: 150px;
  background:#5B5B5B;
   color: #156FA0 ;
   font-size: 20px;
@@ -16,15 +16,18 @@ height: 100px;
 }
 .content{
 	background-color: skyblue;
+	height: 300px;
+	padding-bottom: 20px;
+	padding-right: initial;
+	padding-left: initial;
+	padding-top: 20px;
 
 
 }
 .maincontent{
 	width: 500px;
 	float: left;
-	div {
-		background-image: url('pc2.jpg');
-	  }
+	
 
 
 }
@@ -33,10 +36,11 @@ float: right;
 
 }
 .footersection{
- background-color: #007ACC;
+ background-color: #156FA0;
  font-size: 30px;
  padding-top: 20px;
  padding-bottom: 30px;
+ text-align: center;
 }
 .img{
 	height: 200px;
