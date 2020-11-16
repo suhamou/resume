@@ -3,7 +3,7 @@ body{
 	font-family: Arial; font-size: 14px; line-height: 20px;color: #000000;
 }
 .headersection{
-height: 150px;
+height: 100px;
  background:#5B5B5B;
   color: #156FA0 ;
   font-size: 20px;
@@ -33,7 +33,7 @@ float: right;
 
 }
 .footersection{
- background-color: darkgoldenrod;
+ background-color: #007ACC;
  font-size: 30px;
  padding-top: 20px;
  padding-bottom: 30px;
